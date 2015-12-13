@@ -39,7 +39,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         if let inputISBN = textFieldISBN.text {
             requestISBN(inputISBN)
         }
-        
+        textField.resignFirstResponder()
         return true
     }
     
